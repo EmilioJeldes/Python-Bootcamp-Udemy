@@ -1,8 +1,9 @@
 import requests
 from random import choice
-import pyfiglet
+from pyfiglet import figlet_format
+from termcolor import colored
 
-print(pyfiglet.figlet_format("DAD JOKE"))
+print(colored(figlet_format("DAD JOKE"), color = "magenta"))
 
 url = "https://icanhazdadjoke.com/search"
 user_input = input("What would you like to search for? ")
