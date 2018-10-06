@@ -69,6 +69,8 @@ print(colors[0: 4: 1])
 print(colors[-1:])
 print(colors[-3:])
 print(colors[:1])
+# REVERSE STRING
+print(colors[::-1])
 
 # Swapping values
 # Use a "coma" and reasign the values
@@ -76,3 +78,5 @@ print(colors)
 colors[0], colors[1] = colors[1], colors[0]
 print(colors)
 
+# Unpacking params
+# *(tuple) or *[list]

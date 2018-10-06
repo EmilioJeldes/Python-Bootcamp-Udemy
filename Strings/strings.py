@@ -11,3 +11,9 @@ print("{} {}".format(name, lastname))
 print(f"{name} {lastname}")
 
 # lower() upper() string funcionts to change format
+name.upper()
+lastname.lower()
+
+# .replace(char, new_character)
+name.replace("o", "a")
+print(name)
