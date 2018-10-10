@@ -67,9 +67,6 @@ def display_info(a, b, *args, instructor = "Colt", **kwargs):
 nums = [1, 2, 3, 4, 5, 6]
 print(sum_all_nums(*nums))
 
-
-
-
 sing_happy_birthday()
 print(square_seven())
 print(square(4))

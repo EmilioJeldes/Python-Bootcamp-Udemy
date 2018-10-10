@@ -67,3 +67,6 @@ print(second_dictionary)
 
 # Add new value
 second_dictionary["new_value"] = "value"
+
+# Unpacling Dictionaries
+# **dictionary_name

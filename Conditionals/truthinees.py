@@ -1,6 +1,6 @@
 x = 1
-x is 1 # True
-x is 0 # False
+x is 1  # True
+x is 0  # False
 
 # Empty objects, Empty String, None and Zero are naturaly False
 string = None
