@@ -1,5 +1,6 @@
-import requests
 from random import choice
+
+import requests
 from pyfiglet import figlet_format
 from termcolor import colored
 
