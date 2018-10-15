@@ -1,16 +1,18 @@
 # BeautifulSoup
 
-#### Import
+Basic syntax to use BeautifulSoup for web scraping
+
+### Import
 ````python
 from bs4 import BeautifulSoup
 ````
 
-#### Syntax
+### Syntax
 ````python
 soup = BeautifulSoup(html_string, "html.parser")
 ````
 
-#### Find methods
+### Find methods
 ````python
 # By tagname
 first_div = soup.body.div
@@ -23,7 +25,7 @@ div_list = soup.find_all('div')
 
 ````
 
-#### Find params
+### Find params
 ````python
 # Find by id
 find_id = soup.find(id='id-name')
@@ -37,7 +39,7 @@ find_attr = soup.find_all(attrs={"atribute-name": "value"})
 find_attr = soup.find_all(attrs="attribute-name")
 ````
 
-#### Find using CSS Selectors
+### Find using CSS Selectors
 `````python
 # IT ALWAYS RETURNS A LIST
 
@@ -51,7 +53,7 @@ select_class = soup.select('.class-name')
 select_attr = soup.select('[attribute-name]')
 `````
 
-#### Accessing data of a tag
+### Accessing data of a tag
 `````python
 el = soup.select('.class-name')[0]
 # Access inner text of a tag
@@ -64,7 +66,7 @@ tag_name = el.name
 attr = el["atribute-name"]
 `````
 
-#### Navigating elements
+### Navigating elements
 **Vía Tags:**
 `````python
 # Contents returns a list with '\n' after each element
