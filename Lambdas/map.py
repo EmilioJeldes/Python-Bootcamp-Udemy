@@ -1,5 +1,5 @@
-# map(function, iterator)
-# Iterates over an iterator and executes a function
+# map(function, iterable)
+# Iterates over an iterable and executes a function
 # returns a map object and it needs to be casted into something usefull like a list
 # stored variable of a map, can only be used once (must be casted to preserved it)
 

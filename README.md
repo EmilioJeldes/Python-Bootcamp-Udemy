@@ -14,6 +14,6 @@ This repo contains progress and documentation of my first Python course
 * **[Functions](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Functions)**
 * **[Lambdas](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Lambdas)**
 * **[Object oriented programming](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/OOP)**
-* **[Iterators & Decorators](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Decorators)**
+* **[Iterators & Decorators & Generators](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Decorators)**
 * **[Http requests](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Http)**
 * **[Scraping](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Scraping)**

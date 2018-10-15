@@ -1,4 +1,4 @@
-# filter(function, iterator)
+# filter(function, iterable)
 # returns a filter object of the original collection
 # can be turned into a iterator
 
