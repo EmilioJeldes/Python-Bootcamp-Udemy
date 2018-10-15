@@ -67,7 +67,7 @@ attr = el["atribute-name"]
 `````
 
 ### Navigating elements
-**Vía Tags:**
+*  **Vía Tags:**
 `````python
 # Contents returns a list with '\n' after each element
 # To access next element you need to skip 1 after
@@ -84,7 +84,7 @@ next_el = data.next_sibling.next_sibling
 prev_sibling = data.previous_sibling
 `````
 
-**Vía Searching Methods:**
+* **Vía Searching Methods:**
 `````python
 # Using seach mathods does not return '\n'
 # Can add filter classes, id's or attributes inside methods
