@@ -68,7 +68,7 @@ It's a copy, it does not modify the original iterable
 print(sorted(users, key = lambda user: user["username"]))
 `````
 
-### ``min(iterable, key=function) - max(iterable, key=function)``
+### 7. ``min(iterable, key=function) - max(iterable, key=function)``
 Key is not mandatory.
 Returns the minimum / maximum value of the iterable.
 Can accept a function key as a judge to get the value
@@ -77,3 +77,35 @@ min(names, key = lambda n: len(n))
 max(names, key = lambda n: len(n))
 `````
 
+### 8. ``reverse(iterable)``
+Returns a reverse iterator
+`````python
+for char in reversed("Hello world"):
+    print(char)
+`````
+
+### 9. ``abs(n)``
+Returns the absolute value of a number.
+The number can be a float or an int.
+`````python
+print(abs(-2.5))  # 2.5
+print(abs(-22))   # 22
+`````
+
+### 10. ``round(number, ndigits)`` 
+Return number rounded to ndigits precision after the decimal point.
+If ndigits is omitted or None, it returns the nearest integer
+`````python
+round(10.4)  # 10
+round(1.234567, 2)  # 1.23
+`````
+
+### 11. ``zip(iterable, iterable)`` 
+Make an iterator that agregate elements from each of the iterables.
+Returns an iterator of tuples, where the i'th tuple contains the i'th element from each of the of the argumentsequences or iterables.
+The iterator stops when the shortest input iterable is exhausted
+`````python
+first_zip = zip([1, 2, 3], [4, 5, 6])
+print(list(first_zip))  # [(1, 4), (2, 5), (3, 6)]
+print(dict(first_zip))  # {1: 4, 2: 5, 3: 6}
+`````
