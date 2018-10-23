@@ -13,8 +13,8 @@ print(nums2)
 print(nums)
 
 users = [
-    {"username": "Samuel", "tweets": ["I love cake", "I love cookies"], "color": "purple"},
-    {"username": "Katie", "tweets": ["I love my cat"], "number": 46, "color": "purple"},
+    {"username": "Samuel", "tweets": ["IO love cake", "IO love cookies"], "color": "purple"},
+    {"username": "Katie", "tweets": ["IO love my cat"], "number": 46, "color": "purple"},
     {"username": "Jeff", "tweets": []},
     {"username": "Bob123", "tweets": []},
     {"username": "doggo_luvr", "tweets": ["dogs are the best"]},

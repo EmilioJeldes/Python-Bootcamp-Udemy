@@ -9,8 +9,8 @@ evens = list(filter(lambda x: x % 2 == 0, num_list))
 print(evens)
 
 users = [
-    {"username": "Samuel", "tweets": ["I love cake", "I love cookies"]},
-    {"username": "Katie", "tweets": ["I love my cat"]},
+    {"username": "Samuel", "tweets": ["IO love cake", "IO love cookies"]},
+    {"username": "Katie", "tweets": ["IO love my cat"]},
     {"username": "Jeff", "tweets": []},
     {"username": "Bob123", "tweets": []},
     {"username": "doggo_luvr", "tweets": ["dogs are the best"]},

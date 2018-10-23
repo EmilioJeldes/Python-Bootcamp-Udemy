@@ -8,7 +8,7 @@ class Aquatic:
         return f"{self.name} is swimming"
     
     def greet(self):
-        return f"I am {self.name} of the sea"
+        return f"IO am {self.name} of the sea"
 
 
 class Ambulatory:
@@ -21,7 +21,7 @@ class Ambulatory:
         return f"{self.name} is walking"
     
     def greet(self):
-        return f"I am {self.name} of the land"
+        return f"IO am {self.name} of the land"
 
 
 class Penguin(Ambulatory, Aquatic):

@@ -15,7 +15,7 @@ def greet():
 
 
 def rage():
-    print("I HATE YOU!")
+    print("IO HATE YOU!")
 
 
 # # Decorating the function with politeness
@@ -33,7 +33,7 @@ def greet():
 
 @be_polite
 def rage():
-    print("I HATE YOU!")
+    print("IO HATE YOU!")
 
 
 greet()

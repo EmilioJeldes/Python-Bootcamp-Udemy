@@ -18,7 +18,7 @@ def greet(name):
 
 
 def order(main, side):
-    return f"Hi, I'd like the the {main}. with a side of {side}, please"
+    return f"Hi, IO'd like the the {main}. with a side of {side}, please"
 
 
 @shout

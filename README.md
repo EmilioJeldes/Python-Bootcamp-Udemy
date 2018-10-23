@@ -14,6 +14,7 @@ This repo contains progress and documentation of my first Python course
 * **[Functions](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Functions)**
 * **[Lambdas](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Lambdas)**
 * **[Error Handling and Debugging](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/ErrorHandling-Debugging)**
+* **[FileIO](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/FileIO)**
 * **[Modules](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Modules)**
 * **[Object oriented programming](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/OOP)**
 * **[Iterators & Decorators & Generators](https://github.com/EmilioJeldes/Python-Bootcamp-Udemy/tree/master/Decorators)**

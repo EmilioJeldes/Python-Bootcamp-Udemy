@@ -24,7 +24,7 @@ class Person:
     def __init__(self):
         self.name = "Tony"
         self._secret = "Hi"
-        self.__msg = "I like turtles"
+        self.__msg = "IO like turtles"
         self.__lol = "AHAHAHAHA"
     
     def __repr__(self) -> str:
